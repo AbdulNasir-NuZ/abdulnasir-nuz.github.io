@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio Responsive </title>
+        <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function () {
+          emailjs.init('IOpdZ51m4FOdTPmhM');
+        })();
+      </script>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">NuZ</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/nuz.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/nuz.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Abdul Nasir V</h2>
+                        <span class="about__profession">Software Engineer</span>
+                        <p class="about__text">Experienced software engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success.
+                             Well-versed in technology and writing code to create systems that are reliable and user-friendly. 
+                            Skilled leader who has the proven ability to motivate, educate, and manage a team of professionals to build software programs and effectively track changes.
+                            Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company’s organizational needs,
+                            highlight their core competencies,
+                            and further their success.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/abdul-NasirV/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/AbdulNasir-NuZ" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://codepen.io/abdulnasir-nuz" class="about__social-icon"><i class='bx bxl-codepen'></i></a>
+                            <a href="https://replit.com/@AbdulNasir-NuZ" class="about__social-icon"><i class='bx bxl-chrome'></i></a>
+                            <a href="https://codesandbox.io/u/AbdulNasir-NuZ" class="about__social-icon"><i class='bx bx-checkbox-square'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Technology</h3>
+                        <span class="skills__name">HTML5</span>
+                        <span class="skills__name">CSS</span>
+                        <span class="skills__name">JavaScript</span>
+                        <span class="skills__name">Java</span>
+                        <span class="skills__name">Springs</span>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Django</span>
+                        <span class="skills__name">ReactJs</span>
+                        <span class="skills__name">MangoDB</span>
+                        <span class="skills__name">Sql</span>
+                        <span class="skills__name">Cassandra</span>
+                        <span class="skills__name">dbeaver</span>
+
+                        <h3 class="skills__subtitle">IDE</h3>
+                        <span class="skills__name">Eclipse</span>
+                        <span class="skills__name">VScode</span>
+                        <span class="skills__name">Atom</span>
+                        <span class="skills__name">PyCharm</span>
+                        
+                        <h3 class="skills__subtitle">Tools</h3>
+                        <span class="skills__name">Docker</span>
+                        <span class="skills__name">Jenkins</span>
+                        <span class="skills__name">Jeera</span>
+                        <span class="skills__name">PostMan</span>
+                       
+                        
+                <!-- ====Download Resume and Hire me ====-->
+                    <div class="btns">
+                           <a href="assets/Resume/Abdul Nasir V.pdf" class="btns__button" download>Download Resume</a>
+                           <a href="https://www.linkedin.com/in/abdul-nasirv" class="btns__button">Hire Me</a>    
+                    </div>
+                </div>
+                  
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/work1.jpg"  alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/AbdulNasir-NuZ/Disney-Hotstar-Clone" class="portfolio__link-name">Disney Hotsar Frontend Clone</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work2.jpg"  alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://fitclubnasir.pages.dev/" class="portfolio__link-name">Fitclub website on gymnastics</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work3.jpg"  alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/AbdulNasir-NuZ/WebTechProjects/tree/main/PokemonGame" class="portfolio__link-name">PokeMon Match Game </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work4.jpg"  alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/AbdulNasir-NuZ/ShapeAI/tree/main/PythonMachineLearning" class="portfolio__link-name">ShapeAI using Machine Learning</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work5.jpg"  alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/AbdulNasir-NuZ/Portfolio-app-basics" class="portfolio__link-name">PortFoilio App </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work6.jpg"  alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://github.com/AbdulNasir-NuZ/workshop-ecommerce-app" class="portfolio__link-name">E-Commerce App BackEnd</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">nasir.nuz@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 97432 32004</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">India</span>
+                    </div>
+
+                    <form action=""  class="contact__form" >
+                        <div class="contact__inputs">
+                            <input type="text" id="fullname" placeholder="Full Name" class="contact__input">
+                            <input type="email" id="email_id" placeholder="Email Id" class="contact__input">
+                           
+                        </div>
+                       
+                          <textarea id="message" rows="5" placeholder="How Can We Help You ?" class="contact__input"></textarea>
+                        
+                        <button onclick="SendMail()" type="reset" class="contact__button" >Send</button>
+                    </form>
+                </div>
+               
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">INFO <hr> </h2>
+                    <p class="footer__text">I'm Abdul Nasir V,<br>This is My Personal  Website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE <hr></h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW<hr></h2>
+                    <a href="https://www.instagram.com/nasar_ul_zain_azran" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://twitter.com/abdulNasirNuz" class="footer__social"><i class='bx bxl-twitter' ></i></a><hr/>
+                    <img src="assets/img/nasirGitqr.png"  alt="" width="150" height="150"/>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
