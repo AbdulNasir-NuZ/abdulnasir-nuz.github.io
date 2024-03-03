@@ -182,7 +182,7 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-image: linear-gradient(to right,#0d93b8, #6c1eba);
+    background-image: linear-gradient(to right,#0d93b8, #f6e607);
     overflow: hidden;
 }
 .home__container{
